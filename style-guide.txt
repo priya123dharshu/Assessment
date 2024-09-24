@@ -1,0 +1,9 @@
+Font Family:
+Lato
+Oswald
+
+Colors Used: 
+#22AA46
+#277D69
+#0E97D9
+#3FC9A8, #1CA2C4

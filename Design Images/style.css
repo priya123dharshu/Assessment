@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    justify-content: space-between;
+    background-color: black;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+}
+header img{
+    width: 15%;
+    margin: 10px 60px 0px;
+ } 
+.list{
+    list-style: none;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 30px;
+    gap: 40px;
+    margin: 30px 40px 0px 0px;
+    padding: 0;
+}
+li{
+    
+}
+.first-container{
+    text-align: center;
+    width: 100%;
+    background-image: url(../assets/Repeat\ Grid\ 1.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.first-container p{
+    margin: 0;
+    
+    color: white;
+    font-size: 30px; 
+}
+.first-para{
+    padding-top: 80px;
+}
+span{
+    color: cyan;
+    
+}
+.first-container img{
+   width: 30%;
+   padding: 10px;
+}
+.first-container button{
+    padding: 13px;
+    color: green;
+    border-color: green;
+    border: none;
+    margin: 20px 0px 90px 0px;
+    border-radius: 6px;
+    width: 15%;
+    border:2px solid green;
+    
+    
+}
+button:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.second-container{
+    width: 100%;
+    background-image:url(../assets/Group\ 2803.png) ;
+    display: flex;
+}
+.content1{
+    width: 40%;
+    padding: 100px 40px 0px 150px;
+}
+.content1 button{
+    padding: 10px;
+    border: none;
+    background-color: #0E97D9;
+    border-radius: 6px;
+    color: white;
+}
+.content1 button:hover{
+    cursor: pointer;
+    background-color: blue;
+
+}
+h1{
+    font-family: "Oswald", sans-serif; 
+    color: #3FC9A8;
+}
+.third-container{
+    background-image: url(../assets/Group\ 2804.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+}
+.third-img{
+    width: 50%;
+    padding: 20px 80px 10px 0px;
+   
+}
+.content2{
+    width: 50%;
+    color: white;
+    padding: 120px 90px 0px 0px;
+}
+.content2 button{
+    padding: 10px;
+    background-color: #0E97D9;
+    border-radius: 6px;
+    color: white;
+    border: none;
+}
+.content2 button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.fourth-container{
+    background-image: url(../assets/Group\ 2805.png);
+    background-repeat: no-repeat;
+    margin: 20px;
+    
+}
+.mobile img{
+    display: none;
+}
+.content3{
+    padding: 80px 60px;
+    width: 40%;
+}
+.fifth-container{
+    background-image: url(../assets/Group\ 2806.png);
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0px 20px 0px 20px;
+}
+.content4{
+    padding: 20px;
+    text-align: center;
+    
+}
+.content4 .para{
+    width: 40%;
+   margin-left: 30%;
+   padding: 10px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 17%;
+    gap: 5%;
+}
+.logos:hover{
+    cursor: pointer;
+}
+.content5{
+    text-align: center;
+    padding: 50px 0px;
+}
+.content5 button{
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+.content5 button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+footer{
+    background-image: url(../assets/Group\ 2807.png);
+    /* background-repeat: no-repeat; */
+    color: white;
+    width: 100%;
+}
+.last-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content6{
+    width: 50%;
+    margin-left: 15%;
+}
+.content6 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.content6 i{
+    margin: 0;
+    gap: 40px;
+}
+.content7{
+    width: 50%;
+}
+.comman-div{
+    display: flex;
+    gap: 10%;
+}
+.content6 h4{
+    margin: 0;
+    padding: 40px 0px 0px 0px;
+   
+}
+.content7 h4{
+    margin: 0;
+    padding: 40px 0px 0px 0px;
+}
+.content7 input,button{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.para2{
+    margin-top: 50px;
+}
+.para2 i{
+    margin:0;
+}
+@media(max-width:800px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .second-container{
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .content1{
+        margin: 0;
+        width: 80%;
+        padding: 20px 20px;
+    }
+    .second-img img{
+        width: 100%;
+    }
+    .third-container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .third-img img{
+        margin: 0;
+        width: 100%;
+    }
+    .content2{
+        padding: 20px 0px;
+        margin: 0;
+        width: 80%;
+    }
+}
+@media(max-width:450px){
+    header img{
+        width: 100px;
+    }
+    header li{
+        display: none;
+    }
+    .first-container button{
+        width:40%;
+    } 
+    .content3{
+        padding: 20px 10px 0px;
+        width: 100%;
+    }
+    .third-img img{
+        margin: 0;
+        width: 100%;
+    }
+    .mobile img{
+        display: block;
+        width: 100%;
+        border: none;
+    }
+    .logos{
+        display:flex;
+        /* flex-wrap: wrap; */
+        margin: 0;
+        width: 10px;
+    }
+    .logos img{
+        width: 70%;
+    }
+    .logos p{
+        font-size: 10px;
+    }
+    footer{
+        width: 100%;
+    }
+    .content4 .para{
+        width: 100%;
+        margin: 0;
+    }
+    .last-container{
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+    .comman-div{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .content6{
+        width: 100%;
+        margin: 0;
+    }
+    .content7{
+        width: 100%;
+    }
+    .icons{
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+
+}
+
