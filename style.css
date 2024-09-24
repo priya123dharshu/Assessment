@@ -33,7 +33,7 @@ li{
 .first-container{
     text-align: center;
     width: 100%;
-    background-image: url(../assets/Repeat\ Grid\ 1.png) ;
+    background-image: url(assets/Repeat\ Grid\ 1.png) ;
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -73,7 +73,7 @@ button:hover{
 }
 .second-container{
     width: 100%;
-    background-image:url(../assets/Group\ 2803.png) ;
+    background-image:url(assets/Group\ 2803.png) ;
     display: flex;
 }
 .content1{
@@ -97,7 +97,7 @@ h1{
     color: #3FC9A8;
 }
 .third-container{
-    background-image: url(../assets/Group\ 2804.png);
+    background-image: url(assets/Group\ 2804.png);
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-evenly;
@@ -124,7 +124,7 @@ h1{
     background-color: blue;
 }
 .fourth-container{
-    background-image: url(../assets/Group\ 2805.png);
+    background-image: url(assets/Group\ 2805.png);
     background-repeat: no-repeat;
     margin: 20px;
     
@@ -137,7 +137,7 @@ h1{
     width: 40%;
 }
 .fifth-container{
-    background-image: url(../assets/Group\ 2806.png);
+    background-image: url(assets/Group\ 2806.png);
     background-repeat: no-repeat;
     color: white;
     margin: 0px 20px 0px 20px;
@@ -177,7 +177,7 @@ h1{
     cursor: pointer;
 }
 footer{
-    background-image: url(../assets/Group\ 2807.png);
+    background-image: url(assets/Group\ 2807.png);
     /* background-repeat: no-repeat; */
     color: white;
     width: 100%;
